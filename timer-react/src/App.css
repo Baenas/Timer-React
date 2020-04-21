@@ -6,7 +6,48 @@
   height: 40vmin;
   pointer-events: none;
 }
+.content {
+  margin: 0 auto;
+  background-color: antiquewhite;
+  width: 40vw;
+  height: 70vh;
+  border-radius: 20px;
 
+  box-shadow: rgb(33, 33, 43) 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.display {
+  color: black;
+  font-weight: 400;
+    font-size: 150%;
+  font-family: fantasy;
+}
+.buttonsmall{
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 110%;
+  font-family: fantasy;
+background-color: rgba(182, 100, 237, 0.486);
+  box-shadow: rgba(28, 20, 48, 0.534) 3px 3px 1px 1px;
+}
+.botombar{
+  display: flex;
+}
+.button {
+  padding: 25px;
+  margin: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 150%;
+  font-family: fantasy;
+background-color: rgba(100, 148, 237, 0.486);
+  box-shadow: rgba(28, 20, 48, 0.534) 3px 3px 1px 1px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
